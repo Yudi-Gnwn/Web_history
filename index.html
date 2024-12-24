@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>History</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- conect to css -->
+    <link
+      rel="stylesheet"
+      href="D:\Documents\Coding\projectWeb_History\style.css"
+    />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">CariFilm</a>
+
+      <div class="navbar-search">
+        <form action="#" method="get">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Mau nonton apa hari ini..."
+            name="search"
+          />
+          <button type="submit" class="search-button">🔍</button>
+        </form>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="home"><i data-feather="home"></i></a>
+        <a href="#" id="liked"><i data-feather="heart"></i></a>
+        <a href="#" id="history"><i data-feather="bookmark"></i></a>
+        <a href="#" id="account"><i data-feather="user"></i></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- Hero section - HISTORY -->
+    <section class="history">
+      <h2>Histori</h2>
+      <div class="film-list">
+        <div class="film-item">
+          <img src="img/creature commandos.png" alt="creaturecommandos" />
+          <h3>creature Commandos</h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+        </div>
+        <div class="film-item">
+          <img src="img/infinity war.jpg" alt="infinitywar" />
+          <h3>Infinity War</h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+        </div>
+        <div class="film-item">
+          <img src="img/agatha.jpg" alt="agatha" />
+          <h3>Agatha</h3>
+          <div class="rating">⭐⭐⭐⭐☆</div>
+        </div>
+        <div class="film-item">
+          <img src="img/skeleton crew.png" alt="skeletoncrew" />
+          <h3>skeleton Crew</h3>
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- Hero section - PLAYLIST -->
+    <section class="playlist">
+      <h2>Playlist</h2>
+      <div class="film-list">
+        <div class="film-item">
+          <img src="img/infinity war.jpg" alt="infinitywar" />
+          <h3>Marvel Series</h3>
+          <div class="play">Mainkan sekarang >></div>
+        </div>
+        <div class="film-item add-new">
+          <div class="add-icon">+</div>
+          <h3>Playlist Baru</h3>
+        </div>
+      </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- footer start -->
+    <!-- footer end-->
+
+    <!-- Feather icon -->
+    <script>
+      feather.replace();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
